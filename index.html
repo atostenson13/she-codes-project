@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>homeworkweek5</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <form id="search-form">
+    <input type="text" placeholder="Search for a City" name="name" id="city-name" required/>
+    <input type="submit" value="search"/>
+   </form>
+
+   <form id="current-location">
+    <input type="submit" value="Current Location"/>
+   </form>
+    <h1><div class="current-city" id="current-city">Springfield</div>
+    <div id="date"><span id="day">Monday</span> <span id="hours">22</span>:<span id="minutes">00</span></div>
+    <div class="type-description" id="type-description">Snowing</div>
+  </h1>
+    
+    <div class="flex-container">
+  <div class="flex-child magenta">
+    <h2><span class="degree" id="degree">26</span>°F</h2>
+  <span>
+   
+  </h3>
+</div>  
+  <div class="flex-child green">
+    <ul style="list-style: none;">
+    <li class="precip">Precipitation: 87%</li>
+    <li class="hum">Humidity: 56%</li>
+    <li class="speed">Wind: 3 km/h</li>
+    </ul>
+  </div>
+  
+<script src="script.js">
+</script>
+</body>
+</html>
